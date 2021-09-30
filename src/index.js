@@ -9,7 +9,6 @@ import useDarkMode from "./hooks/useDarkMode";
 import "./styles.scss";
 
 const App = () => {
-  console.log('DM',useDarkMode);
   const [coinData, setCoinData] = useState([]);
   const [darkMode, setDarkMode] = useDarkMode(false);
 
